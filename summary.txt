@@ -1,0 +1,18 @@
+# Gesture Controlled Game using Computer Vision
+
+## Project Description
+This project controls a game using hand gestures detected through a webcam. A yellow object is tracked, and upward movement triggers the SPACE key.
+
+## Technologies Used
+- Python
+- OpenCV
+- NumPy
+- PyAutoGUI
+
+## How It Works
+Webcam detects yellow object → tracks motion → presses SPACE when object moves up.
+
+## How to Run
+pip install opencv-python numpy pyautogui  
+python main.py
+
